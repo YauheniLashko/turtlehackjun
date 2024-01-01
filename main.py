@@ -1,13 +1,14 @@
 from turtle import *
 
-speed(0)
+
 
 def tp(x, y):
     penup()
     goto(x, y)
     pendown()
 
-
+'''11-24 строки первый стрим'''
+speed(0)
 # тело
 begin_fill()
 circle(100, 390)
@@ -21,7 +22,7 @@ circle(50, 125)
 left(90)
 circle(90, 60)
 end_fill()
-
+'''5-8, 27-63 второй стрим'''
 # глаз правый
 tp(xcor() + 20, ycor() + 70)
 begin_fill()
